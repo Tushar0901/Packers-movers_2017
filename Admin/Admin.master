@@ -1,0 +1,171 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin_Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Shreeji Packers & Movers</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<!-- Begin JavaScript -->
+
+		<script type="text/javascript" src="lib/jquery-1.3.2.min.js"></script>
+		<script type="text/javascript" src="lib/jquery.tools.js"></script>
+    	<script type="text/javascript" src="lib/jquery.custom.js"></script>
+
+<link href="styles.css" rel="stylesheet" type="text/css" />
+
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+    
+<div id="main">
+<!-- header begins -->
+<div id="header">
+	<div id="logo">
+    	<a href="#"><h1>Shreeji Packers & Movers.</h1></a>
+      	<h2><a href="#" id="metamorph">Planing your next Move</a></h2>
+    </div>
+   <div id="buttons">
+      <a href="Admin_User_Reg.aspx" class="but"  title="">Home</a>
+      <a href="catagory.aspx" class="but" title="">Catagory</a>
+      <a href="user_order.aspx"  class="but" title="">Order</a>
+      <a href="Feedback.aspx"  class="but" title="">Feedback</a>
+      <a href="Logout.aspx" class="but" title="">Logout</a>
+    </div>
+</div>
+<!-- header ends -->
+
+
+     <!-- content begins -->
+	<div id="content">
+   	  <div class="top">
+	  		       <div id="slider_bg">
+			            <div class="waveshow">
+							<img src=""alt="" title="Some Text 1 Goes Here" />
+							<img src=""alt="" title="Some Text 2 Goes Here" />
+						    <img src="packers/005.jpg"alt="" title="Some Text 3 Goes Here" />
+						</div> <!-- waveshow -->
+
+
+                        </div> <!-- slider_bg -->
+	  </div>
+
+       <div style="height:10px"></div>
+                    <div class="razd_h"></div>
+
+
+                    
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+                     <!--company news-->
+                      
+                    <div style="height:32px"></div>
+                    <div style=" padding: 0px 0px 0px 13px">
+                    <div class="home_box">
+                               
+                            </div>
+
+
+
+
+
+                              <!--your option-->
+                              <div style="width: 45px; height:20px; float: left;"></div>
+                            <div class="home_box">
+                                
+                            </div>
+                           
+                           
+                           <!--new user-->
+                           <div style="width: 45px; height:20px; float: left;"></div>
+                           <div class="home_box">
+                             
+                            </div>
+                            
+
+
+
+
+                             <!--second line contant-->
+                              
+                             <div style="clear: both"></div>
+                    </div>
+                   
+      
+                    <div class="razd_h"></div>
+	
+    				<div style="clear: both; height: 30px;"></div>
+    
+    </div>
+ <!-- content ends --> 
+
+
+ 
+    <!-- bottom begin -->
+    <div id="bottom">
+        <div class="bottom_h1">
+            <div class="b_col1">
+                  <h1>Contact Information</h1>
+              <div style="height:30px"></div>
+                    3- Ratnjyot Complex<br />
+                    Nirnaynagar,Ranip,Ahmedabad<br />
+                    Phone:7874582550<br />
+                    Fax: 1(234) 567 8910<br />
+                    E-mail: <b>Bhavsar.tushard@gmail.com</b>
+                      </div>
+              <div class="b_col2">
+              		<h1>Follow Us</h1>
+               	<div style="height:30px"></div>
+                    <ul>
+                       
+                        <li><img src="images/fu_i2.png" class=" fu_i" alt="" />Follow on <a href="#">Facebook</a></li>
+                        
+                        <li><img src="images/fu_i4.png" alt="" /> <a href="#">Follow us onTwitter</a></li>
+                    </ul>
+          </div>
+           <div class="b_col3">
+                <h1>Useful Resources</h1>
+                <div style="height:30px"></div>
+                    <ul>
+                        <li><a href="Home.aspx">Home</a></li>
+                        <li><a href="Change_Pasword.aspx">Change Password</a></li>
+                        <li><a href="Login.aspx">Login</a></li>
+                        <li><a href="Feedback.aspx">About us </a></li>
+                        <li><a href="Registration.aspx">Contact us </a></li>
+                    </ul>
+          </div>
+           <div class="b_col4">
+                <h1>Recent Posts</h1>
+            <div style="height:30px"></div>
+                <b>Shreeji Movers.</b>  <br />
+                <br />Shreeji packers and movers is an indian based "packers and movers" organization that offers professional packing and moving services for all type of goods acros india. <br />
+				
+          </div>
+              <div style="clear: both;"></div>
+      </div>
+    </div>
+
+<!-- bottom end --> 
+
+
+<!-- footer begins -->
+            <div id="footer">
+        Copyright By LinkTechnology.
+          <!-- footer ends -->
+</div>
+
+
+
+    </div>
+    </form>
+</body>
+</html>
